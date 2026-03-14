@@ -10,12 +10,14 @@ const response = await fetch(url);
 
 const data = await response.json();
 
-const weatherInfo = `
-City: ${data.name} <br>
-Temperature: ${data.main.temp}°C <br>
-Weather: ${data.weather[0].description}
-`;
+const icon = data.weather[0].icon;
 
+const weatherInfo = `
+<h2>${data.name}</h2>
+<img src="https://openweathermap.org/img/wn/${icon}@2x.png">
+<p>Temperature: ${data.main.temp}°C</p>
+<p>${data.weather[0].description}</p>
+`;
 document.getElementById("weatherResult").innerHTML = weatherInfo;
 
 }
