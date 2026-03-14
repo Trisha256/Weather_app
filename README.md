@@ -13,10 +13,6 @@ You can try the app here:
 
 ## 📸 Demo
 
-(Add a GIF or screenshot of your app here)
-
-Example:
-
 ![Weather App Demo](weather_app_app.mp4)
 
 ---
@@ -107,7 +103,7 @@ git clone https://github.com/Trisha256/Weather_app.git
 
 ## 👩‍💻 Author
 
-**Trisha**
+Trisha
 
 Aspiring software developer building practical projects to strengthen frontend and API integration skills.
 
