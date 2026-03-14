@@ -7,7 +7,7 @@ A simple and responsive weather application that allows users to search for the 
 ## 🚀 Live Demo
 
 You can try the app here:
-**[Live Weather App](trishasweatherapp.netlify.app)**
+**[Live Weather App](https://trishasweatherapp.netlify.app)**
 
 ---
 
